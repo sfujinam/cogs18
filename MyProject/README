@@ -1,0 +1,15 @@
+Welcome to EZ-PZ-PW! EZ-PZ-PW is a password bank and generator. EZ-PZ-PW will store your passwords for all your online accounts, while you only have to remember one password for your EZ-PZ-PW account! EZ-PZ-PW can also generate extremely secure passwords for your accounts to prevent any unwanted activity with your accounts. EZ-PZ-PW encrypts your password bank so that nobody other than yourself will be able to access them. All text files that store user information is encrypted. For ease of use, users will be prompted with a text menu for each option that is available to them. 
+
+EZ-PZ-PW account functionality includes:
+- Encrypted storage of all EZ-PZ-PW accounts and passwords
+- Adding new EZ-PZ-PW accounts and storing them to an encrypted file
+- Changing the password of your EZ-PZ-PW account
+Once logged in to your EZ-PZ-PW account, you have access to the password bank. The password bank stores the login information for each site. Site login information is stored as an encrypted file, specific to the EZ-PZ-PW account. 
+
+EZ-PZ-PW password bank functionality:
+- Adding login information to any site, including multiple logins for the same site
+- Changing passwords within the password bank
+- Viewing all previously stored accounts in the password bank
+- Generating a secure password with a random password generator
+
+EZ-PZ-PW can be found on my github at https://github.com/sfujinam/cogs18
