@@ -3,7 +3,7 @@ import random
 import string
 import getpass
 from my_module.classes import EzpzpwMenu
-from IPython.display import clear_output
+#from IPython.display import clear_output
 
 MASTER_KEY = 3
 
@@ -182,7 +182,7 @@ def auth(username1 = None):
                 
                 # Waits for user input before continuing and clears screen
                 input('Press enter to continue')
-                clear_output(True)
+                #clear_output()
                 
                 # Close file to free memory and allow to open in different mode
                 accounts.close()
@@ -196,7 +196,7 @@ def auth(username1 = None):
         print('Authentication successful')
         # Waits for user input before continuing and clears screen
         input('Press enter to continue')
-        clear_output()
+        #clear_output()
  
         return pw_check, username
         
@@ -281,7 +281,7 @@ def new_username(is_new = True):
     
     # Waits for user input before continuing and clears screen
     input('Press enter to continue')
-    clear_output()
+    #clear_output()
 
     # Go back to main menu
     main_menu()
@@ -429,7 +429,7 @@ def change_password():
         
     # Waits for user input before continuing and clears screen
     input('Press enter to continue')
-    clear_output()
+    #clear_output()
     
     # Go back to main menu
     main_menu()

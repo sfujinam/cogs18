@@ -1,7 +1,7 @@
 import random
 import string
 import getpass
-from IPython.display import clear_output
+#from IPython.display import clear_output
 
 MASTER_KEY = 3
 
@@ -478,7 +478,7 @@ class EzpzpwMenu():
             #Inform user of choices
             if choice not in options:
                 print('Invalid choice. Please enter a number 1 through 5.')
-                #clear_output(True)
+                #clear_output()
 
             else:
                 valid = True
@@ -516,7 +516,7 @@ class EzpzpwMenu():
 
             # Waits for user input before continuing back to user menu
             input('Press enter to continue')
-            clear_output()
+            #clear_output()
                                                     
         # If user did not generate one, have them enter one
         if password == None:                      
@@ -536,11 +536,11 @@ class EzpzpwMenu():
                         
                         # Waits for user then clears screen
                         input('Press enter to continue')
-                        clear_output()
+                        #clear_output()
 
                     # Waits for user input before continuing and clears screen
                     #input('Press enter to continue')
-                    #clear_output()
+                    ##clear_output()
 
                 else:
                     print('Please confirm again.')
@@ -552,7 +552,7 @@ class EzpzpwMenu():
 
                         # Waits for user input before continuing and clears screen
                         input('Press enter to continue')
-                        clear_output()
+                        #clear_output()
         
         # Go back to menu
         self.user_menu()
@@ -581,7 +581,7 @@ class EzpzpwMenu():
         
         # Waits for user input before continuing and clears screen
         input('Press enter to continue')
-        clear_output()
+        #clear_output()
         
         # Go back to menu
         self.user_menu()
@@ -611,7 +611,7 @@ class EzpzpwMenu():
         
         # Waits for user input before continuing and clears screen
         input('Press enter to continue')
-        clear_output()
+        #clear_output()
         
         # Go back to user menu    
         self.user_menu()
@@ -629,7 +629,7 @@ class EzpzpwMenu():
         
         # Waits for user input before continuing and clears screen
         input('Press enter to continue')
-        clear_output()
+        #clear_output()
         
         # Go back to the menu
         self.user_menu()
@@ -651,7 +651,7 @@ class EzpzpwMenu():
         
         # Waits for user input before continuing and clears screen
         input('Press enter to continue')
-        clear_output()
+        #clear_output()
 
         from my_module.functions import main_menu
         main_menu()
